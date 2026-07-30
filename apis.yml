@@ -1,8 +1,25 @@
 aid: kendrascott
-name: Kendrascott
-description: 'Kendrascott is a company surfaced as a portfolio company of norwest-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead
-  awaiting the enrichment pipeline.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/kendrascott.png
+name: Kendra Scott
+description: 'Kendra Scott is an American jewelry and accessories retailer founded in 2002 in Austin,
+  Texas, offering personalized jewelry, watches, home goods, and gifts through customization options
+  such as initials, birthstones, and engraving. The brand operates a direct-to-consumer ecommerce
+  storefront alongside a network of retail stores, and pairs its Color Bar customization experience
+  with a philanthropic giving model tied to purchases. Surfaced as a portfolio company of
+  norwest-venture-partners and added to the API Evangelist network; the company publishes a consumer
+  ecommerce site but no public developer API, SDK, or developer portal at this time. This profile
+  captures its public identity and web-property surface pending any future developer program.'
 url: https://raw.githubusercontent.com/api-evangelist/kendrascott/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +27,17 @@ x-backed-by:
 - norwest-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-sector: retail-jewelry
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
-- Unknown
+- Retail
+- Jewelry
+- Ecommerce
+- Consumer
+- Accessories
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +46,17 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://kendrascott.com
+  url: https://www.kendrascott.com
+- type: Support
+  url: https://www.kendrascott.com/faq.html
+- type: PrivacyPolicy
+  url: https://www.kendrascott.com/privacy.html
+- type: TermsOfService
+  url: https://www.kendrascott.com/terms-conditions.html
+- type: DomainSecurity
+  url: security/kendrascott-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
