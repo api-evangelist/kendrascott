@@ -1,0 +1,18 @@
+generated: '2026-10-12'
+method: none
+source:
+- https://zapier.com/apps/kendrascott/integrations
+- https://zapier.com/apps/kendra-scott/integrations
+- https://n8n.io/integrations/kendrascott/
+- https://composio.dev/toolkits/kendrascott
+- https://monid.ai/tools/kendrascott
+checked:
+- https://composio.dev/toolkits/kendrascott
+- https://monid.ai/tools/kendrascott
+- https://n8n.io/integrations/kendrascott/
+- https://zapier.com/apps/kendra-scott/integrations
+- https://zapier.com/apps/kendrascott/integrations
+summary: null
+marketplace_apps: []
+edges: []
+templates: []
